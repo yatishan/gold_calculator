@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainDiv">
+        <h2 class="title">Gold Calculator</h2>
+        <!-- <form action=""> -->
+            <div class="goldWeightDiv">
+                <label for="gold-weight" class="gold-weight-label">Gold Weight(grams)</label>
+                <input type="number" name="gold-weight" id="gold-weight">
+            </div>
+            <div class="saleDiv">
+                <label for="sale" class="sale-label">Sale Price</label>
+                <input type="number" name="sale" id="sale">
+            </div>
+            <div class="currentPriceDiv">
+                <label for="current-price" class="current-price-label">Current Gold Price</label>
+                <input type="number" name="current-price" id="current-price">
+            </div>
+            <div class="Btn">
+                <button id="calculateBtn">Calculate</button>
+            </div>
+            <h3 class="result">Result</h2>
+            <div class="result-div">
+                 <div class="gold-weight-result">
+                    <p style="color: black;">Gold Weight</p>
+                    <div id="gold-weight-pae">0</div>
+                    <p>(pae)</p>
+                 </div>
+                 <div class="gold-weight-result">
+                    <p style="color: black;">Gold Price</p>
+                    <div id="gold-price">0</div>
+                    <p>(kyat)</p>
+                 </div>
+                 <div class="gold-weight-result">
+                    <p style="color: black;">Hand Price</p>
+                    <div id="hand-price">0</div>
+                    <p>(kyat)</p>
+                 </div>
+            </div>
+        <!-- </form> -->
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
